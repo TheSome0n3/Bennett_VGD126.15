@@ -43,12 +43,11 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				
 				{width:20, height:23, startX:10, startY:1219},
 				{width:20, height:23, startX:10, startY:1253},
 				{width:20, height:23, startX:10, startY:1285},
-				{width:20, height:23, startX:10, startY:1316},
-				{width:20, height:23, startX:10, startY:1349}
+				{width:20, height:23, startX:10, startY:1316}
+				//{width:20, height:23, startX:10, startY:1348}
 			]
 		},
 		//The jump animation 
@@ -99,7 +98,21 @@ var playerData ={
 
 				
 			]
-		}
+		},
+		//the bullet animation
+		fire:{
+		fps: 1,
+		cycle: true,
+
+		frames:
+		[
+			{width:25, height:16, startX:7, startY:1377},
+			{width:25, height:16, startX:7, startY:1406},
+			{width:25, height:16, startX:7, startY:1439}
+
+		]
 	}
-		
+
+	}
+	
 }

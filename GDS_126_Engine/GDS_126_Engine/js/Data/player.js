@@ -29,11 +29,11 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:21, height:21, startX:9, startY:1037},
-				{width:21, height:21, startX:9, startY:1066},
-				{width:21, height:21, startX:9, startY:1100},
-				{width:21, height:21, startX:8, startY:1130},
-				{width:25, height:25, startX:5, startY:1161}
+				{width:20, height:23, startX:10, startY:1037},
+				{width:20, height:23, startX:10, startY:1066},
+				{width:20, height:23, startX:10, startY:1100},
+				{width:20, height:23, startX:10, startY:1130},
+				{width:20, height:23, startX:10, startY:1161}
 			]
 		},
 		//The walwidth:128, height:128,
@@ -43,11 +43,12 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0}
+				
+				{width:20, height:23, startX:10, startY:1219},
+				{width:20, height:23, startX:10, startY:1253},
+				{width:20, height:23, startX:10, startY:1285},
+				{width:20, height:23, startX:10, startY:1316},
+				{width:20, height:23, startX:10, startY:1349}
 			]
 		},
 		//The jump animation 
@@ -57,7 +58,10 @@ var playerData ={
 			cycle:false,
 			frames:
 			[
-				{width:21, height:21, startX:10, startY:0}
+				{width:21, height:21, startX:9, startY:910},
+				{width:21, height:21, startX:9, startY:940},
+				{width:21, height:21, startX:9, startY:973},
+				{width:21, height:21, startX:9, startY:1006}
 			]
 		},
 		//The crouch animation 
@@ -67,11 +71,11 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:21, height:128, startX:10, startY:0},
-				{width:21, height:128, startX:10, startY:0},
-				{width:21, height:128, startX:10, startY:0},
-				{width:21, height:128, startX:10, startY:0},
-				{width:21, height:128, startX:10, startY:0}
+				{width:21, height:21, startX:10, startY:398},
+				{width:21, height:21, startX:10, startY:430},
+				{width:21, height:19, startX:10, startY:462},
+				{width:21, height:19, startX:10, startY:495},
+				{width:21, height:19, startX:10, startY:526}
 			]
 		},
 		//The attack animation 
@@ -82,13 +86,17 @@ var playerData ={
 			//width:300,
 			frames:
 			[
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0},
-				{width:21, height:21, startX:10, startY:0}
+				{width:21, height:21, startX:8, startY:15},
+				{width:21, height:21, startX:8, startY:45},
+				{width:21, height:21, startX:8, startY:80},
+				{width:21, height:21, startX:8, startY:112},
+				{width:21, height:21, startX:8, startY:143},
+				{width:21, height:21, startX:8, startY:175},
+				{width:21, height:23, startX:8, startY:205},
+				{width:21, height:23, startX:8, startY:237},
+				{width:21, height:23, startX:8, startY:269},
+				{width:21, height:21, startX:8, startY:301}
+
 				
 			]
 		}

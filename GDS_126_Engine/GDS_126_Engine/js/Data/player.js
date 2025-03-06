@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/Techknight.png`
+		src:`images/TechknightFlip.png`
 	},
 	states:{
 		//The idle animation 
@@ -29,11 +29,11 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:20, height:23, startX:10, startY:1037},
-				{width:20, height:23, startX:10, startY:1066},
-				{width:20, height:23, startX:10, startY:1100},
-				{width:20, height:23, startX:10, startY:1130},
-				{width:20, height:23, startX:10, startY:1161}
+				{width:20, height:21, startX:10, startY:1029},
+				{width:20, height:22, startX:10, startY:1061},
+				{width:20, height:22, startX:10, startY:1093},
+				{width:20, height:22, startX:10, startY:1123},
+				{width:20, height:22, startX:10, startY:1154}
 			]
 		},
 		//The walwidth:128, height:128,
@@ -43,10 +43,10 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:20, height:23, startX:10, startY:1219},
-				{width:20, height:23, startX:10, startY:1253},
-				{width:20, height:23, startX:10, startY:1285},
-				{width:20, height:23, startX:10, startY:1316}
+				{width:20, height:21, startX:10, startY:1219},
+				{width:20, height:21, startX:10, startY:1253},
+				{width:20, height:21, startX:10, startY:1285},
+				{width:20, height:21, startX:10, startY:1316}
 				//{width:20, height:23, startX:10, startY:1348}
 			]
 		},

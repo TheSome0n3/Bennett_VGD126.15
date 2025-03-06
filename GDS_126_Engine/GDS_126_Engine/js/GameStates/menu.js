@@ -3,7 +3,7 @@ This file contains all of the code for the Main Menu
 ----------------------------------*/
 
 var startButton = new GameObject();
-startButton.img.src="images/watervegeta.jpg"
+startButton.img.src="images/MenuButton1.png"
 startButton.width=200;
 startButton.hitBoxWidth=800
 console.log(startButton.collisionPoints.right)
@@ -23,15 +23,16 @@ gameStates[`menu`] =function(){
 		{
 			//Changes to the game state
 			gameStates.changeState(`level1`)
+			sounds.play(`bg`, 0, true);
 		}
 
 		//Hover Effect Graffic
-		startButton.img.src="images/firevegeta.jpg"
+		startButton.img.src="images/MenuButton2.png"
 	}
 	else
 	{
 		//Default Button Graphic
-		startButton.img.src="images/watervegeta.jpg"
+		startButton.img.src="images/MenuButton1.png"
 	}
 	
 	menuBackground.drawStaticImage();
